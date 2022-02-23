@@ -8,7 +8,7 @@
   let inputArray = transformedInput.split('');
   let reverseArray = inputArray.slice().reverse();
 
-  for( let i = 0; i < inputArray.length; i++) {
+  for( let i of s) {//= 0; i < inputArray.length; i++) {
       if(inputArray[i] !== reverseArray[i]) {
           // this is not a palindrome if the input in reverse is not exactly 
           // the same as the original string 
@@ -21,4 +21,4 @@
   
 };
 console.log("Palindrome");
-console.log(isPalindrome("radar"));
+console.log(isPalindrome("ra"));
